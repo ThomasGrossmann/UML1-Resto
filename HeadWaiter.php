@@ -1,14 +1,14 @@
 <?php
 
-use Waiter;
-use Order;
-use Bill;
+require_once 'Waiter.php';
+// use Order;
+// use Bill;
 
 class HeadWaiter extends Waiter
 {
     public function validate(Order $order)
     {
-        throw new RuntimeException();
+        echo "The headwaiter validated the order.\n";
     }
 
     public function makeDiscount(Bill $bill)

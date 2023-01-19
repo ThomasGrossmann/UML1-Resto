@@ -1,6 +1,6 @@
 <?php
 
-use Order;
+// use Order;
 
 class Waiter
 {
@@ -8,11 +8,11 @@ class Waiter
 
     public function take(Order $order)
     {
-        throw new RuntimeException();
+        echo "The waiter is taking the order.\n";
     }
 
     public function send(Order $order)
     {
-        throw new RuntimeException();
+        echo "The waiter sent the order to the headwaiter for validation.\n";
     }
 }

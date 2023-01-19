@@ -1,6 +1,6 @@
 <?php
 
-use Customer;
+// use Customer;
 
 class Bill
 {
